@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.dashboard {
+    display: flex;
+    background-image: url(../images/BG2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.dashboard::-webkit-scrollbar {
+    display: none;
+}
+
+.dashboard-nav {
+    width: 20vw;
+    background-color: white;
+}
+
+.dashboard-body {
+    width: 80vw;
+    min-height: 79.9vh;
+}
+
+@media all and (max-width: 800px) {
+    .dashboard-nav,
+    .dashboard-body {
+        width: 100%;
+    }
+    .dashboard {
+        display: block;
+    }
+}
+
+
+/* Dark Mode */
+
+.dashboard-dark {
+    background-image: url(../images/BG2-Dark.jpeg);
+}

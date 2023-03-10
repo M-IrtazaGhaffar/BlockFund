@@ -1,0 +1,132 @@
+.navDash {
+    background: white;
+    height: 100%;
+}
+
+.navDash .navDash-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navDash .navDash-img img {
+    width: 70%;
+}
+
+.navDash .navDash-links {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.navDash .navDash-links a {
+    display: flex;
+    padding: 18px 20px;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: #2E2E30;
+    position: relative;
+}
+
+.navDash .navDash-links a:focus {
+    transition: 0.3s ease-in-out;
+    color: white;
+    background: rgba(35, 31, 79, 1);
+}
+
+.navDash .navDash-links a svg path {
+    stroke: #2E2E30;
+}
+
+.navDash .navDash-links-mobile {
+    display: none;
+}
+
+.navDash .navDash-links a p {
+    padding: 0 0 0 10px;
+}
+
+.navDash .navDash-links-pop {
+    display: block;
+}
+
+@media all and (max-width: 800px) {
+    .navDash .navDash-img {
+        padding: 5px 0;
+    }
+    .navDash .navDash-img img {
+        width: 150px;
+    }
+    .navDash .navDash-links-pop {
+        /* display: none; */
+        position: absolute;
+        right: 10%;
+        border-radius: 5px;
+        border: none;
+        top: 14%;
+        background-color: inherit;
+    }
+    .navDash .navDash-links-mobile {
+        display: flex;
+    }
+    .navDash .navDash-links-mobile button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+        border: none;
+        background: rgba(35, 31, 79, 1);
+        border-radius: 5px;
+        color: white;
+    }
+    .navDash .navDash-links-mobile button svg {
+        width: 25px;
+        height: 25px;
+    }
+    .navDash {
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+
+/* Dark Mode */
+
+.navDash-dark {
+    background: rgba(35, 31, 79, 1);
+}
+
+.navDash-dark .navDash-links a {
+    color: white;
+}
+
+.navDash-dark .navDash-links a:focus {
+    background: rgba(94, 0, 248, 1);
+}
+
+
+/* .navDash-dark .navDash-links a:focus svg {
+    background-color: rgba(94, 0, 248, 1);
+} */
+
+.navDash-dark .navDash-links a svg path {
+    stroke: white;
+}
+
+.navDash .navDash-links a:focus svg path {
+    stroke: white;
+}
+
+.navDash-dark .navDash-links a svg path {
+    stroke: white;
+}

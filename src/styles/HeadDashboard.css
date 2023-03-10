@@ -1,0 +1,66 @@
+.headDashboard {
+    background-color: white;
+    padding: 15px 30px;
+}
+
+.headDashboard .headDashboard-search {
+    background: #1f417310;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 10px 7px;
+    border-radius: 5px;
+}
+
+.headDashboard .headDashboard-search input {
+    border: none;
+    background-color: transparent;
+    color: gray;
+}
+
+.headDashboard .headDashboard-search button {
+    border: none;
+    background-color: #1f417310;
+    cursor: pointer;
+}
+
+.headDashboard.headDashboard-walletID {
+    background: #1f417310;
+    width: 200px;
+    padding: 10px 7px;
+    border-radius: 5px;
+}
+
+@media all and (max-width: 800px) {
+    .headDashboard .headDashboard-search {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .headDashboard .headDashboard-search input {
+        width: 100%;
+    }
+}
+
+
+/* Dark Mode */
+
+.headDashboard-dark {
+    background-color: #000000;
+}
+
+.headDashboard-dark .headDashboard-search {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.headDashboard-dark .headDashboard-search input {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.headDashboard-dark .headDashboard-search input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.headDashboard-dark .headDashboard-search button {
+    color: rgba(255, 255, 255, 0.5);
+}

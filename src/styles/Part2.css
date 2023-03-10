@@ -1,0 +1,166 @@
+.part2 {
+    padding: 25px;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+.part2::-webkit-scrollbar {
+    display: none;
+}
+
+.part2 .part2-head {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000000;
+    padding: 0 0 30px 0;
+}
+
+.part2 .part2-s1,
+.part2 .part2-s2,
+.part2 .part2-s3,
+.part2 .part2-s4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #000000;
+    padding: 30px 10px;
+    margin: 15px 0;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.part2 .part2-s1 div span,
+.part2 .part2-s2 div span,
+.part2 .part2-s3 div span,
+.part2 .part2-s4 div span {
+    background: #E3D4FF;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 5px 10px;
+    color: #5E00F8;
+    margin: 0 3px 0 0;
+}
+
+.part2 .part2-s1-2,
+.part2 .part2-s2-2,
+.part2 .part2-s2-3,
+.part2 .part2-s2-4,
+.part2 .part2-s3-2,
+.part2 .part2-s4-2 {
+    padding: 20px 0;
+}
+
+.part2 .part2-s1-2 p,
+.part2 .part2-s2-2 p,
+.part2 .part2-s2-3 p,
+.part2 .part2-s2-4 p,
+.part2 .part2-s3-2 p,
+.part2 .part2-s4-2 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #333333;
+}
+
+.part2 .part2-s1-2 input,
+.part2 .part2-s2-2 input,
+.part2 .part2-s2-3 input,
+.part2 .part2-s2-4 input,
+.part2 .part2-s3-2 input,
+.part2 .part2-s4-2 input {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid rgba(128, 128, 128, 0.25);
+    border-radius: 5px;
+}
+
+.part2 .part2-s3-btn,
+.part2 .part2-s4-btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 10px 0 0 0;
+    color: #FFFFFF;
+    background: #5E00F8;
+    border-radius: 5px 25px 25px 25px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.part2 .cancel-btn {
+    background: #231F4F;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    margin: 0 10px 0 0;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+@media all and (max-width: 800px) {
+    .part2 {
+        padding: 15px;
+    }
+    .part2 .part2-head {
+        padding: 0;
+    }
+}
+
+
+/* Dark Mode */
+
+.part2-dark {
+    background-image: url(../images/BG2-Dark.jpeg);
+}
+
+.part2-dark .part2-s1,
+.part2-dark .part2-s2,
+.part2-dark .part2-s3,
+.part2-dark .part2-s4 {
+    background-color: #000000;
+    color: white;
+    border: 1px solid rgba(94, 0, 248, 0.5);
+}
+
+.part2-dark .part2-s1-2 input,
+.part2-dark .part2-s2-2 input,
+.part2-dark .part2-s2-3 input,
+.part2-dark .part2-s2-4 input,
+.part2-dark .part2-s3-2 input,
+.part2-dark .part2-s4-2 input {
+    color: white;
+    background-color: #000000;
+    border-color: rgba(94, 0, 248, 0.5);
+}
+
+.part2-dark .part2-s1-2 p,
+.part2-dark .part2-s2-2 p,
+.part2-dark .part2-s2-3 p,
+.part2-dark .part2-s2-4 p,
+.part2-dark .part2-s3-2 p,
+.part2-dark .part2-s4-2 p {
+    color: white;
+}
+
+.part2-dark .part2-head {
+    color: white;
+}

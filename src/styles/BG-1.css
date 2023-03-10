@@ -1,0 +1,11 @@
+.bg-1 {
+    background-image: url(../images/BG1.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-1-dark {
+    background-image: url(../images/BG1-Dak.jpeg);
+}

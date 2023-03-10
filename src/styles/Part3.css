@@ -1,0 +1,263 @@
+.part3 {
+    padding: 25px;
+    width: 100%;
+    height: 82.2vh;
+}
+
+.part3 .part3-head {
+    padding: 8px 0;
+}
+
+.part3 .part3-head,
+.part3 .part3-head .part3-head-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.part3 .part3-head .part3-head-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #231F4F;
+}
+
+.part3 .part3-head .part3-head-btn1 {
+    margin: 0 10px;
+    background: rgba(94, 0, 248, 1);
+    border-radius: 8px;
+    color: white;
+}
+
+.part3 .part3-head .part3-head-btns button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    border: none;
+}
+
+.part3 .part3-head .part3-head-btn2 {
+    color: rgba(113, 39, 255, 1);
+    border-radius: 8px;
+}
+
+.part3 .part3-card {
+    background: #FFFFFF;
+    border: 1px solid #E5EBF0;
+    border-radius: 15px;
+    padding: 25px 15px;
+}
+
+.part3 .part3-card .part3-card-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #595959;
+}
+
+.part3 .part3-card .part3-card-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7127FF;
+    padding: 0 0 10px 0;
+}
+
+.part3 .part3-card .part3-card-desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595959;
+}
+
+.part3 .part3-card .part3-card-detail {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #7127FF;
+}
+
+.part3 .p1-1-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+.part3 .p1 {
+    padding: 0 10px;
+}
+
+.part3 .p1 .container-1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0 5px 0 0;
+    color: #5E00F8;
+    border: 3px solid #5E00F8;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.part3 .p1 .detail-1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #5E00F8;
+}
+
+.part3 .p1 .detail-1 .detail-1-1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #231F4F;
+}
+
+.part3 .part3-card-btns .p1 .p1-1 .p1-1-1 .c2 {
+    background: #E3D4FF;
+    font-size: 30px;
+    width: fit-content;
+}
+
+.part3 .part3-card-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 25px 0 0 0;
+}
+
+.part3 .part3-card .part3-card-btns .p2 .p2-1 .p2-1-btns {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 5px 0;
+}
+
+.part3 .part3-card .part3-card-btns .p2 .p2-1 div {
+    font-size: 6px;
+    color: #B3B3B3;
+}
+
+.part3 .p2 .p2-1 button {
+    background: #E3D4FF;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 8px;
+    color: #5E00F8;
+    border: none;
+    margin: 0 3px 0 0;
+}
+
+.part3 .p4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.part3 .p3 .p3-1,
+.part3 .p4 .p4-1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.part3 .p3 .p3-1 svg,
+.part3 .p4 .p4-1 svg {
+    background: #E3D4FF;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    margin: 0 5px 0 0;
+    color: rgba(113, 39, 255, 1);
+    font-size: 5px;
+}
+
+.part3 .p3 .p3-1,
+.part3 .p4 .p4-1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #2E2E30;
+    margin: 5px 0;
+}
+
+
+/*Dark Mode*/
+
+.part3-dark .part3-card {
+    background-color: black;
+    border: 2px solid #5E00F8;
+}
+
+.part3-dark .part3-head-heading {
+    color: white;
+}
+
+.part3-dark .part3-head .part3-head-heading {
+    color: white;
+}
+
+.part3-dark .p1 .p1-1 .p1-1-1 .detail-1 .detail-1-1 {
+    color: white;
+}
+
+.part3-dark .p4 .p4-1,
+.part3-dark .p3 .p3-1 {
+    color: white;
+}
+
+.part3-dark .part3-card .part3-card-name,
+.part3-dark .part3-card .part3-card-detail {
+    color: white;
+}
+
+@media all and (max-width: 800px) {
+    .part3 {
+        width: 100%;
+        height: 100%;
+    }
+    .part3 .p1-1-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        margin: 5px 0;
+    }
+    .part3 .p1 {
+        margin: 0 0 7px 0;
+    }
+}

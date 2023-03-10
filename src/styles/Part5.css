@@ -1,0 +1,190 @@
+.part5 {
+    padding: 25px;
+    min-height: 82.2vh;
+}
+
+.part4 .part5-card-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.part4 .part5-card-2 .p4-2-1 svg,
+.part4 .part5-card-2 .p4-2-2 svg,
+.part4 .part5-card-2 .p4-2-3 svg,
+.part4 .part5-card-2 .p4-2-4 svg,
+.part4 .part5-card-2 .p4-2-5 svg,
+.part4 .part5-card-2 .p4-2-6 svg {
+    color: rgba(94, 0, 248, 1);
+}
+
+.part4 .part5-card-2 .p4-2-1,
+.part4 .part5-card-2 .p4-2-2,
+.part4 .part5-card-2 .p4-2-3,
+.part4 .part5-card-2 .p4-2-4,
+.part4 .part5-card-2 .p4-2-5,
+.part4 .part5-card-2 .p4-2-6 {
+    font-family: 'Inter';
+    font-size: 13px;
+    line-height: 17px;
+    width: 135px;
+    padding: 7px 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.part4 .part5-card-2 .div1 {
+    font-family: 'Inter';
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    justify-content: flex-start;
+}
+
+.part4 .part5-card-2 .div2 .div2-1 {
+    font-size: 10px;
+}
+
+.part4 .part5-card-2 .div2 .div2-1 button {
+    background: #FFFFFF;
+    box-shadow: 0px 16px 48px -4px rgba(18, 31, 62, 0.1);
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-size: 10px;
+    line-height: 150%;
+    border: none;
+    cursor: pointer;
+    padding: 2px 4px;
+    width: 100px;
+    color: #121F3E;
+    margin: 1px 0;
+}
+
+.part4 .part5-card-2 .div2 .div2-1 button span {
+    background: rgba(227, 212, 255, 1);
+    color: rgba(35, 31, 79, 1);
+    padding: 1px 10px;
+    border-radius: 8px;
+}
+
+.part4 .part5-card-2 .div2 .div2-1 .part4-btn-1,
+.part4 .part5-card-2 .div2 .div2-1 .part4-btn-2 {
+    background: #E3D4FF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 9px;
+    font-family: 'IBM Plex Sans';
+    font-size: 8px;
+    line-height: 150%;
+    margin: 2\4px 0;
+    color: #5E00F8;
+    width: 50px;
+    display: inline-block;
+}
+
+.part4 .part4-card-2 .div2 .div2-1 .part4-btn-2 {
+    color: #1DCF00;
+    background: #E6F9F4;
+}
+
+.part4 hr {
+    margin: 20px 0;
+    color: black;
+}
+
+.part4 .div-last {
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding: 2px 0;
+    border-radius: 8px;
+}
+
+.part4 .part4-btns {
+    display: flex;
+}
+
+.part4 .part4-btns .part4-card-3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    background: #E3D4FF;
+    border-radius: 8px;
+    color: #5E00F8;
+    padding: 10px 20px;
+    width: 250px;
+    text-align: center;
+    margin: 0 0 0 30px;
+    height: fit-content;
+}
+
+.part4 .part5-lower-btns {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    margin: 10px 0;
+}
+
+.part4 .part5-lower-btns .part5-lower-btns-1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 150%;
+    color: #7127FF;
+    flex: none;
+    order: 1;
+    padding: 8px 16px;
+    flex-grow: 0;
+    cursor: pointer;
+    background: #E3D4FF;
+    border-radius: 8px;
+    border: none;
+    margin: 0 10px;
+}
+
+.part4 .part5-lower-btns .part5-lower-btns-2 {
+    background: #5E00F8;
+    border-radius: 8px;
+    padding: 8px 16px;
+    gap: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 150%;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media all and (max-width: 800px) {
+    .part4 {
+        height: 100%;
+    }
+    .part4 .part4-btns {
+        display: block;
+    }
+    .part4 .part4-btns .part4-card-3 {
+        /* margin: 20px 0 0 0; */
+        margin: 20px 0 0 16%;
+    }
+    .part4 hr {
+        margin: 20px 0;
+        color: rgba(66, 34, 148, 1);
+        background-color: rgba(66, 34, 148, 1);
+    }
+    .part4 .part5-lower-btns {
+        display: block;
+    }
+    .part4 .part5-lower-btns .part5-lower-btns-1 {
+        margin: 5px 0;
+    }
+}
