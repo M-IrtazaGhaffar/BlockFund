@@ -35,7 +35,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<LandingPage />} />
             <Route exact path="/dashboard" element={<Dashboard />}>
-              <Route exact path="s1" element={<Part1/>}/>
+              <Route index element={<Part1/>}/>
               <Route exact path="s2" element={<Part2/>}/>
               <Route exact path="s3" element={<Part3/>}/>
               <Route exact path="s4" element={<Part4/>}/>
